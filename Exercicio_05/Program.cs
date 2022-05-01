@@ -16,7 +16,7 @@ namespace Luiz
             //colocar em ordem crescente usando if
             for (int p = 0; p < numeros.Length; p++)
             {
-                Console.Write("Digite a m" + p + " do aluno: ");
+                Console.Write("Digite um numero" + p +);
                 numeros[p] = Convert.ToDecimal(Console.ReadLine());
                 decimal valor = numeros[p];
                 contador++;
